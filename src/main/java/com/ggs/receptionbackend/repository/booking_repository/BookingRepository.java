@@ -1,0 +1,13 @@
+package com.ggs.receptionbackend.repository.booking_repository;
+
+import com.ggs.receptionbackend.entity.process_booking.Booking;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface BookingRepository extends JpaRepository<Booking, Long> {
+    List<Booking> findBookingByClient_ClientId(Long clientId);
+    List<Booking> findByCompany_CompanyId(Long companyId);
+}
