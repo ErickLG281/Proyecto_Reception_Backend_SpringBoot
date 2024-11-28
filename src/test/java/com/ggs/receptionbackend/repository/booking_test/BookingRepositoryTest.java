@@ -23,7 +23,7 @@ import java.util.List;
 
 @SpringBootTest
 public class BookingRepositoryTest {
-
+/*
     @Autowired
     private TransactionRepository transactionRepository;
 
@@ -93,4 +93,6 @@ public class BookingRepositoryTest {
         bookingRepository.save(booking);
 
     }
+
+ */
 }

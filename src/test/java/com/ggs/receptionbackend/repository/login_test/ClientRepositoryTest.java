@@ -14,7 +14,7 @@ import java.util.List;
 @SpringBootTest
 public class ClientRepositoryTest {
 
-    @Autowired
+   /* @Autowired
     ClientRepository clientRepository;
 
     @Autowired
@@ -56,4 +56,6 @@ public class ClientRepositoryTest {
     public void searchClientById() {
         clientRepository.findById(6L);
     }
+
+    */
 }

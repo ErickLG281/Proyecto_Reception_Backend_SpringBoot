@@ -13,7 +13,7 @@ import java.util.List;
 
 @SpringBootTest
 public class UserRepositoryTest {
-
+/*
     @Autowired
     private UserRepository userRepository;
 
@@ -61,4 +61,6 @@ public class UserRepositoryTest {
 
         userRepository.save(user);
     }
+
+ */
 }

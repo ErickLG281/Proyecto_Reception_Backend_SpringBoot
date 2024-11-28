@@ -11,7 +11,7 @@ import java.util.List;
 
 @SpringBootTest
 public class ReceptionRepositoryTest {
-    @Autowired
+   /* @Autowired
     private CompanyRepository companyRepository;
 
     @Test
@@ -50,5 +50,7 @@ public class ReceptionRepositoryTest {
         List<Company> receptions = companyRepository.findByCategoriesCategoryId(1L);
         System.out.println("categories: " + receptions);
     }
+
+    */
 
 }

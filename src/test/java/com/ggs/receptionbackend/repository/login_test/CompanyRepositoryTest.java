@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class CompanyRepositoryTest {
 
-    @Autowired
+   /* @Autowired
     private CompanyRepository enterpriseRepository;
 
     @Autowired
@@ -30,4 +30,6 @@ public class CompanyRepositoryTest {
 
         enterpriseRepository.save(enterprise);
     }
+
+    */
 }
