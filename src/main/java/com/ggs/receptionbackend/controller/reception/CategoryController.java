@@ -7,11 +7,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("category")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://bbb5-200-37-253-180.ngrok-free.app"})
 public class CategoryController {
+
 
     @Autowired
     private CategoryService categoryService;
